@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+     
+}
+
+body {
+    background-color: rgb(119, 4, 4);
+}
+
+/* navigation Bar css properties */
+nav {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    /* position: fixed; */
+
+}
+/* Logo name design */
+.heading {
+    font-family: lobster two;
+    font-size: 40px;
+    float: left;
+}
+ul {
+    float: right;
+    /* display: flex; */
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+ul li {
+    margin: 10px;
+    display: inline;
+}
+
+ul li :hover {
+    background-color: rgba(10, 45, 59, 0.699);
+    border-radius: 10px;
+   
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+
+/* Common classes */
+.card{
+    padding: 70px 10px 0 10px;
+
+}
+
+
+/* This is form css */
+form {
+    color: white;
+    align-content: center;
+    justify-content: center;
+    border: 2px solid purple;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px 25px 10px 25px;
+}
+
+form div{
+    margin: 5px;
+    padding: 5px;
+
+}
+form div input{
+    height: 25px;
+    padding: 2px;
+    margin: 0px 10px 3px 30px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* position: relative; */
+    
+}

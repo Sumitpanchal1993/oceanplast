@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+div{
+    color: white;
+    /* background-color: burlywood; */
+}
+div tr{
+border: 2px solid white;
+}
+div tr th{
+
+}
