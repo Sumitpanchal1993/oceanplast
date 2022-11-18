@@ -5,7 +5,7 @@ export default class TableFetch extends Component {
   render() {
     return (
       <>
-      <div className='card'>
+      {/* <div className='card'>
       <h1>I am gone call a table here </h1>
       <div>
        <tr>
@@ -16,7 +16,7 @@ export default class TableFetch extends Component {
         <th>avatar</th>
        </tr>
       </div>
-      </div>
+      </div> */}
 
 
       </>
